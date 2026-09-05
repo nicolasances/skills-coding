@@ -4,7 +4,7 @@ description: Prepares for the development of a feature or fix in a codebase.
 model: opus
 ---
 
-# Prepare Fix Development
+# Prepare for development
 
 This skill performs all the necessary actions to prepare an agent for the development of a fix or featurein a codebase.
 
