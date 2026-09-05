@@ -1,9 +1,9 @@
 ---
-name: implement-feature
+name: code
 description: Implements a feature in a codebase
 ---
 
-# Implement Feature
+# Code
 
 This skill is a step of feature development. 
 This skill actually implements a *Feature* or a *Fix* in the codebase. 
