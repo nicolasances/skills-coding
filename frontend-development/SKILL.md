@@ -27,7 +27,7 @@ Build production-quality user interfaces that are accessible, performant, and vi
 ### Wireframe and design system
 
 - [ ] If a wireframe or design system exist for the interfaces use it. 
-- [ ] If you cannot easily find a wireframe or design system, **ask the user about it**.
+- [ ] If you cannot easily find a wireframe or design system, **you need to quit**.
 
 ### Avoid the AI Aesthetic
 
