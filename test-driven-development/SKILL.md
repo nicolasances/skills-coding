@@ -19,7 +19,6 @@ Write a failing test before writing the code that makes it pass. For bug fixes, 
 - Any change that could break existing behavior
 
 **When NOT to use:** 
-- Any case that is reported in the `what-to-test.md` file in the skill folder as "not to be tested". 
 - Pure configuration changes
 - Documentation updates
 - Static content changes that have no behavioral impact
@@ -27,7 +26,9 @@ Write a failing test before writing the code that makes it pass. For bug fixes, 
 - If a test requires a mock browser or a real browser environment
 
 **Tests you should NEVER write:**
+- Any test that is reported in the `what-to-test.md` file in the skill folder as "not to be tested". 
 - Tests that require you to have access to a database instance. Avoid those. 
+When these guidelines define that a test should not be written, just move to implementation. 
 
 ## The TDD Cycle
 
