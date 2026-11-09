@@ -36,9 +36,7 @@ You **must always strictly** follow this workflow when implementing a feature:
 2. Take one task at a time, starting from those that depend on no other tasks and proceeding according to dependencies. 
     2.1. Implement the task
         - If the task is related to building (or changing) a frontend (UI) component, use the `frontend-development` skill. You **must** use this skill. 
-        - If the task is related to building (or changing) a backend microservice, a function (method) or a component that is not a frontend (UI) component, you **MUST**: 
-            - [ ] use the `test-driven-development` skill. You **must** use this skill
-            - [ ] **read and follow** the coding guidelines for microservices available at the repo `nicolasances/sdlc-agent-specs/coding-standards/toto-microservice-development.md`. You **MUST** follow these guidelines.
+        - If the task is related to building (or changing) a backend microservice, a function (method) or a component that is not a frontend (UI) component, you **MUST** use the `test-driven-development` skill. You **must** use this skill.
     2.2. Commit. 
 3. Make a report of the implemented tasks. 
 
@@ -56,7 +54,7 @@ You **must always strictly** follow this workflow when implementing a feature:
     2. Implement the changes
     3. Switch back to **Package Mode**. Again, you **MUST** use the `switching-toto-react-mode` skill for that. 
 
-**Adhere to my Coding Standards**: 
+**You MUST adhere to my Coding Standards**: 
 - When coding in python, you **MUST** first read the `coding-standards/python-coding-standards.md` instructions in the `nicolasances/sdlc-agent-specs` GitHub repo.
 - When coding in typescript (NodeJS), you **MUST** first read the `coding-standards/node-coding-standards.md` instructions in the `nicolasances/sdlc-agent-specs` GitHub repo.
 - When building a microservice (i.e. a backend microservice), you **MUST** first read the `coding-standards/toto-microservice-development.md` instructions in the `nicolasances/sdlc-agent-specs` GitHub repo.
